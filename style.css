@@ -1,0 +1,94 @@
+@font-face {
+    font-family:myFont;
+    src: url(VirgilRegular.otf);
+}
+*{
+    margin: 5px;
+}
+.bar{
+    border:1px solid grey;
+    border-radius:2px;
+    padding:3px;
+}
+.menu{
+    border:1px solid grey;
+    padding:2px;
+    color:grey;
+    box-shadow:2px 2px 1px grey;
+    width:500px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.svg{
+    margin-left:8px;
+    color:grey;
+
+}
+nav{
+    display:flex;
+    color:grey;
+    justify-content: space-between;
+}
+.library{
+    color:grey;
+    padding:3px;
+    border:1px solid grey;
+    border-radius:2px;
+    display:flex;
+}
+.right-nav{
+    margin-top:3px;
+    display:flex;
+}
+.contact{
+    border-radius:2px;
+    border:1px solid grey;
+    padding:3px;
+}
+.dropdown-arrow{
+    width:50px;
+    height:80px;
+    color:grey;
+}
+main>p{
+    /* display:flex;
+     */
+     /* text-align:left; */
+}
+.caption{
+    font-size:smaller;
+    margin-left:380px;
+}
+.logo{
+    text-align:center;
+    height:50px;
+    width:50px;
+}
+.main-sec{
+    display:flex;
+    margin-left:30px;
+    color:gray;
+
+}
+p{
+color:grey;
+}
+.sec-arrow{
+    display:flex;
+    margin-left:400px;
+    width:50px;
+}
+.hero{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+}
+.logotext{
+    margin-top:20px;
+    color:blue;
+    font-size:large;
+    font-family:virgil;
+}
+.caption2{
+    text-align: center;
+}
