@@ -1,0 +1,173 @@
+
+*{
+    margin:5px;
+}
+body{
+    flex:1 0 auto;
+    overflow:hidden;
+}
+.bar{
+    border:1px solid grey;
+    border-radius:2px;
+    padding:3px;
+    border-radius:5px;
+
+}
+.menu{
+    padding:2px;
+    color:grey;
+    box-shadow:2px 2px 8px 1px rgba(0, 0, 0, .5);
+    width:500px;
+    display:flex;
+    flex-wrap: wrap;
+    border-radius:5px;
+    justify-content: space-evenly;
+}
+.icon:hover{
+    background-color:whitesmoke;
+}
+.svg{
+    margin-left:8px;
+    color:grey;
+
+}
+nav{
+    display:flex;
+    color:grey;
+    justify-content: space-between;
+}
+.bar{
+    background-color: rgb(223, 225, 228);
+    padding:5px;
+    border:none;
+    
+}
+.library{
+    color:grey;
+    padding:3px;
+    border-radius:5px;
+    display:flex;
+    background-color: rgb(223, 225, 228);
+    width:90px;
+    height:25px;
+}
+.right-nav{
+    margin-top:3px;
+    display:flex;
+}
+.contact{
+    border-radius:5px;
+    border:1px solid grey;
+    padding:3px;
+    font-size:larger;
+    background-color: blueviolet;
+}
+.dropdown-arrow{
+    width:50px;
+    height:80px;
+    color:grey;
+}
+.caption{
+    font-size:smaller;
+    margin-left:380px;
+}
+.line{
+display:block;
+text-align: center;
+
+}
+.logo{
+    text-align:center;
+    height:50px;
+    width:50px;
+}
+.main-sec{
+    display:flex;
+    margin-left:30px;
+
+}
+p{
+color:rgb(190, 190, 190);
+
+}
+.cur{
+color:rgb(190, 190, 190);
+font-family:"Indie Flower";
+font-weight: bold;
+font-size:20px;
+
+}
+.sec-arrow{
+    display:flex;
+    margin-left:400px;
+    width:50px;
+}
+.hero{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+.logotext{
+    margin-top:10px;
+    color:rgb(2, 2, 49);
+    font-weight:bolder;
+}
+.caption2{
+    text-align: center;
+}
+section{
+    margin-top: 30px;
+
+}
+#canvas{
+    top:50px;
+    cursur:crosshair;
+    z-index: 2;
+    background-color: transparent;
+}
+.option{
+    display:flex;
+    margin-left:550px;
+    font-size:15px;
+}
+.option:hover{
+    background-color: rgb(223, 225, 228);
+    width:220px;
+}
+.open{
+    margin-left:90px;
+}
+.que{
+    margin-left:100px;
+}
+footer{
+    /* margin-top:130px; */
+    /* bottom:0px; */
+    display:flex;
+}
+.foot1{
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(223, 225, 228);
+    width:100px;
+    color:gray;
+    border-radius: 5px;
+}
+.symbol{
+    color:gray;
+    background-color: rgb(223, 225, 228);
+    border-radius: 5PX;
+}
+@media screen and (max-width:400px) {
+ body{
+    text-align:center;
+    overflow:hidden;
+ }  
+ footer{
+    margin-top:500px;
+ } 
+ .right-nav{
+    text-align: left;
+    align-items:left;
+ }
+}
